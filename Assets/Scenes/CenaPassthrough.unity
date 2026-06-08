@@ -1408,6 +1408,52 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &836957751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 836957753}
+  - component: {fileID: 836957752}
+  m_Layer: 0
+  m_Name: ModelController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &836957752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836957751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b765a7708e67f924d9393a64f2d5a5ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ModelController
+  modelTransform: {fileID: 1791768127}
+  modelRenderer: {fileID: 0}
+--- !u!4 &836957753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836957751}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.93579, y: 0, z: -4.45881}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &952511023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2514,6 +2560,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9af1cf02ba9e9b4f9436206d3375888, type: 3}
+--- !u!4 &1791768127 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1590173622150650807, guid: d9af1cf02ba9e9b4f9436206d3375888, type: 3}
+  m_PrefabInstance: {fileID: 1791768126}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1960717400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2942,3 +2993,4 @@ SceneRoots:
   - {fileID: 952511027}
   - {fileID: 1151308187}
   - {fileID: 2110163138}
+  - {fileID: 836957753}
