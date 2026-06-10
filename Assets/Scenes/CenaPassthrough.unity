@@ -531,7 +531,7 @@ Transform:
   m_GameObject: {fileID: 301969200}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
+  m_LocalPosition: {x: -0.901, y: 1.1176, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1438,7 +1438,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelController
   modelTransform: {fileID: 1791768127}
-  modelRenderer: {fileID: 0}
 --- !u!4 &836957753
 Transform:
   m_ObjectHideFlags: 0
@@ -2495,8 +2494,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767652685}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0053804, y: 3.0128818, z: -0.10363866}
+  m_LocalRotation: {x: -0.0018341771, y: 0.9908684, z: -0.13414179, w: -0.013507871}
+  m_LocalPosition: {x: -3.4599571, y: 3.6352613, z: 9.747149}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
